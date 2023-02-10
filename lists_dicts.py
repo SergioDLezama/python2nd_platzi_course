@@ -23,8 +23,6 @@ def run():
         for key, values in i.items():
             print(key, ' ', values)
     
-    for item in superlist:
-    print(item["firstname"] , "-" , item["lastname"])
 
 if __name__ == '__main__':
     run()
